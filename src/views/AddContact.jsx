@@ -9,13 +9,11 @@ const AddContact = () => {
     const name = e.target.name;
     const value = e.target.value;
     setInputs(values => ({...values, [name]: value}));
-    console.log(e.target.value);
   }
 
   const handleSubmit = (e) => {
     e.preventDefault();
     postContact();
-    console.log(inputs);
   }
 
 const postContact = () => {
@@ -56,7 +54,6 @@ const postContact = () => {
                 <input type="tel" name="phone" id="" className="form-control" onChange={handleOnChange} value={inputs.phone || ""} />
                 <label className="form-label">Dirección</label>
                 <input className="form-control" type="text" name="address" id="" onChange={handleOnChange} value={inputs.address || ""}/>
-                
 
                 <p />
                 <div className="d-grid gap-2">

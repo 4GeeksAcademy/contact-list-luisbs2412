@@ -41,7 +41,6 @@ const EditContact = () => {
             navigate("/");
           })
           .catch(error => console.error("Error al actualizar el contacto:", error))
-        
     }
 
     return (
