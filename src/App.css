@@ -1,0 +1,37 @@
+div .col-md-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; 
+}
+
+.col-md-9 {
+    display: flex;
+    justify-content: space-around;
+    margin-right: auto;
+}
+
+.botones i {
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-left: 15px;
+}
+
+div .botones {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+div .card-body {
+    padding-left: 2px;
+}
+
+.card-body i {
+  padding-right: 10px;
+  padding-left: 15px;
+}
